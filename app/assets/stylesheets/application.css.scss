@@ -30,6 +30,22 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,60,108,1) 0%, rgba
 .navbar {
     border: none;
 }
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    
+}
+.navbar-default .navbar-nav:hover > li > a {
+    color: white;
+    opacity: 0.75;
+}
 .home-callout {
     color: white;
     margin-top: -20px;
