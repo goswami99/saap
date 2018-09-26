@@ -20,11 +20,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMet</a>
+      
+      <!-- <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMet</a> (html way to add link)-->
+      <%= link_to "/", class:"navbar-brand" do %>           <!-- ruby way to add links -->
+      <i class="fa fa-group"></i>
+      DevMet
+      <%end%>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/about">About</a></li>
+        
+        <!-- <li><a href="/about">About</a></li> -->
+        <li><%= link_to "About", "/about" %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
