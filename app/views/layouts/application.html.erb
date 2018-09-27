@@ -22,7 +22,7 @@
       </button>
       
       <!-- <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMet</a> (html way to add link)-->
-      <%= link_to "/", class:"navbar-brand" do %>           <!-- ruby way to add links -->
+      <%= link_to root_path, class:"navbar-brand" do %>           <!-- ruby way to add links -->
       <i class="fa fa-group"></i>
       DevMet
       <%end%>
@@ -31,7 +31,7 @@
       <ul class="nav navbar-nav navbar-right">
         
         <!-- <li><a href="/about">About</a></li> -->
-        <li><%= link_to "About", "/about" %></li>
+        <li><%= link_to "About", about_path %></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
