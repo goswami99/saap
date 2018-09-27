@@ -37,6 +37,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,60,108,1) 0%, rgba
     border: none;
 }
 
+.navbar-brand {
+    font-family: 'Open Sence', sence-serif;
+    font-weight: 800;
+}
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
