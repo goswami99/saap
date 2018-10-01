@@ -50,6 +50,17 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,60,108,1) 0%, rgba
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #00c6ff;
+    }
+}
+
 // home page styles
 .home-callout {
     color: white;
